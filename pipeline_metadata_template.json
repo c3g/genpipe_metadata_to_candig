@@ -1,0 +1,89 @@
+{
+    "pipeline_metadata": [
+        {
+            "Alignment": {
+                "alignmentId": "",
+                "alignmentTool": "",
+                "baseRecalibrator": "GATK/3.8",
+                "coverage": "",
+                "fastqc": "",
+                "flagStat": "samtools/1.9",
+                "idxStats": "samtools/1.9",
+                "inHousePipeline": "",
+                "indelRealigner": "GATK/3.8",
+                "insertSizeMetrics": "",
+                "markDuplicates": "",
+                "mergeTool": "Sambamba/0.7.0",
+                "printReads": "GATK/3.8",
+                "realignerTarget": "GATK/3.8",
+                "reference": "",
+                "sampleId": "",
+                "sequencingId": "",
+                "site": ""
+            },
+            "ExpressionAnalysis": {
+                "alignmentTool": "",
+                "bamHandling": "",
+                "expressionAnalysisId": "",
+                "expressionEstimation": "",
+                "readLength": "",
+                "reference": "",
+                "sampleId": "",
+                "sequencingId": "",
+                "site": ""
+            },
+            "Extraction": {
+                "dnaBlood": "",
+                "dnaTissue": "",
+                "extractionId": "",
+                "rnaBlood": "",
+                "rnaTissue": "",
+                "sampleId": "",
+                "site": ""
+            },
+            "FusionDetection": {
+                "alignmentId": "",
+                "annotation": "",
+                "fusionDetection": "",
+                "fusionDetectionId": "",
+                "geneModels": "",
+                "genomeReference": "",
+                "inHousePipeline": "",
+                "realignment": "",
+                "sampleId": "",
+                "site": "",
+                "svDetection": ""
+            },
+            "Sequencing": {
+                "dnaLibraryKit": "",
+                "dnaReadLength": "",
+                "dnaSeqPlatform": "",
+                "extractionId": "",
+                "pcrCycles": "",
+                "rnaLibraryKit": "",
+                "rnaReadLength": "",
+                "rnaSeqPlatform": "",
+                "sampleId": "",
+                "sequencingId": "",
+                "site": ""
+            },
+            "VariantCalling": {
+                "alignmentId": "",
+                "annotation": "gemini/0.2.0",
+                "clipFilter": "",
+                "cosmic": "cosmic-v68-GRCh37",
+                "dbSnp": "dbsnp.b141",
+                "delly": "0.83",
+                "inHousePipeline": "",
+                "mergeTool": "",
+                "postFilter": "",
+                "rdaToTab": "",
+                "sampleId": "",
+                "site": "",
+                "tabulate": "",
+                "variantCaller": "",
+                "variantCallingId": ""
+            }
+        }
+    ]
+}
